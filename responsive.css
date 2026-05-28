@@ -1,0 +1,165 @@
+
+@media(max-width:992px) {
+
+    .menu-grid,
+    .service-grid,
+    .testimonial-grid,
+    .about-wrapper,
+    .delivery-wrapper,
+    .blog-grid,
+    .footer-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 55px;
+    }
+
+    .small-blogs {
+        grid-template-columns: 1fr;
+    }
+    .delivery-wrapper{
+        grid-template-columns:1fr;
+    }
+
+    .delivery-content h2{
+        font-size:42px;
+    }
+    .testimonial-section .section-title{
+        font-size:44px;
+    }
+    .blog-wrapper{
+        grid-template-columns:1fr;
+    }
+
+    .blog-top h2{
+        font-size:44px;
+    }
+    
+  .about-wrapper{
+    grid-template-columns:1fr;
+  }
+
+  .about-content h2{
+    font-size:42px;
+  }
+
+  .visit-card{
+    position:relative;
+    right:0;
+    bottom:0;
+    width:100%;
+    margin-top:20px;
+  }
+
+}
+
+@media(max-width:768px) {
+
+    .nav-links {
+        position: absolute;
+        top: 80px;
+        right: -100%;
+        width: 250px;
+        background: #fff;
+        flex-direction: column;
+        padding: 30px;
+        transition: 0.3s;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .book-btn {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+    }
+
+    .section-title {
+        font-size: 34px;
+    }
+    .about-content h2{
+    font-size:34px;
+  }
+
+  .visit-card{
+    padding:25px;
+  }
+    .footer-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .delivery-images{
+        flex-direction:column;
+    }
+
+    .small-imgs img{
+        height:220px;
+    }
+
+    .delivery-content h2{
+        font-size:34px;
+    }
+
+    .delivery-feature span{
+        font-size:17px;
+    }
+    .testimonial-section .section-title{
+        font-size:34px;
+    }
+
+    .testimonial-card{
+        padding:30px;
+    }
+
+    .testimonial-card h3{
+        font-size:22px;
+    }
+    .blog-top{
+        flex-direction:column;
+
+        gap:25px;
+
+        align-items:flex-start;
+    }
+
+    .small-blog-grid{
+        grid-template-columns:1fr;
+    }
+
+    .blog-top h2{
+        font-size:34px;
+    }
+
+    .big-blog-card img{
+        height:300px;
+    }
+
+    .small-blog-card img{
+        height:240px;
+    }
+    .footer{
+        padding-top:70px;
+    }
+
+    .footer-logo h2{
+        font-size:32px;
+    }
+
+    .footer-gallery img{
+        height:150px;
+    }
+}
+
