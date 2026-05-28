@@ -41,7 +41,7 @@ section {
 }
 
 .section-title {
-    text-align: center;
+    text-align: start;
     font-size: 42px;
     margin-bottom: 60px;
 }
